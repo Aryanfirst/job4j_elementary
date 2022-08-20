@@ -6,7 +6,7 @@ public class Variablesvalue {
         System.out.println(age);
         char gender = 'M';
         System.out.println(gender);
-        double height = 1.86;
+        float height = 1.86f;
         System.out.println(height);
         short amount = 1235;
         System.out.println(amount);
