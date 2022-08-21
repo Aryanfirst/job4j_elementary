@@ -10,13 +10,13 @@ public class Variablesvalue {
         System.out.println(height);
         short amount = 1235;
         System.out.println(amount);
-        int bacterium = 10000000;
+        double bacterium = 2e+12;
         System.out.println(bacterium);
-        long distance = 15000000;
+        double distance = 15e6;
         System.out.println(distance);
         boolean permission = true;
         System.out.println(permission);
-        byte file = 8;
+        long file = 600000;
         System.out.println(file);
     }
 }
