@@ -19,7 +19,7 @@ public class Converter {
         System.out.println("140 rubles are " + dollar + " dollar.");
         float ruble = Converter.rubleToEuro(1);
         System.out.println("1 euro are " + ruble + " ruble.");
-        float rruble = Converter.rubleToDollar(1);
-        System.out.println("1 dollar are " + rruble + " ruble.");
+        ruble = Converter.rubleToDollar(1);
+        System.out.println("1 dollar are " + ruble + " ruble.");
     }
 }
