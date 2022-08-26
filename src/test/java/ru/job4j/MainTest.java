@@ -5,9 +5,23 @@ import static org.assertj.core.api.Assertions.*;
 
 public class MainTest {
     @Test
-    public void whenActionThenResult() {
-        int excepted = 1;
+    public void whenEquals() {
         int result = 1;
-        assertThat(result).isEqualTo(excepted);
+        int expected = 1;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    public void whenFloatPoint() {
+        float result = 1.0000001F;
+        float expected = 1F;
+        assertThat(result).isCloseTo(expected, offset(0.01F));
+    }
+
+    @Test
+    public void whenArray() {
+        int[] result = {1, 2, 3};
+        int[] expected = {1, 2, 3};
+        assertThat(result).containsExactly(expected);
     }
 }
