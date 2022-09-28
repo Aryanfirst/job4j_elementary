@@ -11,4 +11,12 @@ public class FactorialTest {
         int out = Factorial.calc(n);
         assertThat(out).isEqualTo(expected);
     }
+
+    @Test
+    public void whenCalculateFactorialForTenThenThreeMillionSixHundredTwentyEightThousandEightHundred() {
+        int expected = 3628800;
+        int n = 10;
+        int out = Factorial.calc(n);
+        assertThat(out).isEqualTo(expected);
+    }
 }
