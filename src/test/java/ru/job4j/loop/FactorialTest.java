@@ -13,7 +13,7 @@ public class FactorialTest {
     }
 
     @Test
-    public void whenCalculateFactorialForTenThenThreeMillionSixHundredTwentyEightThousandEightHundred() {
+    public void whenCalculateFactorialFor10Then3628800() {
         int expected = 3628800;
         int n = 10;
         int out = Factorial.calc(n);
